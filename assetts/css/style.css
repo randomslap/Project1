@@ -1,0 +1,147 @@
+
+#header {
+    background: url(/assetts/images/intro.jpg) no-repeat center;
+    padding-bottom: 290px;
+    background-size: 1920px 1500px;
+}
+
+.section-one {
+    position: relative;
+	height: 60vh;
+    padding: 20vh 15vw 0 15vw;
+    background-color: black;
+    border-top: #314048 solid 2px;
+}
+
+#tracer-img {
+    margin-top: -130px;
+    margin-left: -200px;
+}
+
+.section-two {
+    position: relative;
+	height: 60vh;
+    padding: 20vh 15vw 0 15vw;
+    background-color: black;
+    border-top: #314048 2px solid;
+}
+
+.section-three {
+    position: relative;
+	height: 60vh;
+    padding: 20vh 15vw 0 15vw;
+    background-color: black;
+    border-top: #314048 2px solid;
+}
+
+.section-four {
+    position: relative;
+	height: 60vh;
+    padding: 20vh 15vw 0 15vw;
+    background-color: black;
+    border-top: #314048 2px solid;
+}
+
+.section-five {
+    position: relative;
+	height: 60vh;
+    padding: 20vh 15vw 0 15vw;
+    background-color: black;
+    border-top: #314048 1px solid;
+}
+
+
+
+
+#Addit {
+    background-color: #F20D0D !important;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 120px;
+}
+
+.centerBlock {
+    display: table;
+    margin: auto;
+}
+
+.xystonRed {
+    color: #F20D0D;
+}
+
+.bodyPosition {
+    margin-top: 100px;
+}
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+    color: #fbfbfb;
+    text-align: center;
+}
+
+p {
+    font-weight: 700;
+    color: #fbfbfb;
+    text-align: center;
+}
+
+#infoFont {
+    font-size: 25px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #F20D0D;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#myBtn:hover {
+    background-color: white;
+    color: #F20D0D;
+}
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #F20D0D;
+    margin: 0 10px 0 10px;
+}
+.demo-card-square > .mdl-card__title {
+    color: #fff;
+}
+
+.mdl-card__supporting-text {
+    color: white !important;
+}
+
+#owCard {
+    background:
+    url('/assetts/images/csgo.jpg') top left 10% no-repeat black;
+    background-size: 550px 340px;
+}
+
+#csgoCard {
+    background:
+    url('/assetts/images/csgo.jpg') top left 10% no-repeat black;
+    background-size: 550px 340px;
+}
