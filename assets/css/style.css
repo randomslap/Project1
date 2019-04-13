@@ -3,6 +3,10 @@
 	color: white;
 }
 
+#introLogo {
+    padding-bottom: 30px;
+}
+
 .section {
 	height: auto;
 	padding: 75px 0px 75px 0px;
