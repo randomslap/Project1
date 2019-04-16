@@ -1,14 +1,5 @@
 $(document).ready(function() {
-	function rotateArrow() {
-		if (!$("#collapsingNavbarLg").hasClass("show")) {
-			$(".fa-arrow-left").addClass("rotate");
-			console.log("true");
-		} else {
-			$(".fa-arrow-left").removeClass("rotate");
-			console.log("false");
-		}
-	}
-
+	// on-click functions
 	$(".navbar-toggler").on("click", function() {
 		rotateArrow();
 	});
@@ -21,6 +12,16 @@ $(document).ready(function() {
 window.onscroll = function() {
 	scrollFunction();
 };
+
+function rotateArrow() {
+	if (!$("#collapsingNavbarLg").hasClass("show")) {
+		$(".fa-arrow-left").addClass("rotate");
+		console.log("true");
+	} else {
+		$(".fa-arrow-left").removeClass("rotate");
+		console.log("false");
+	}
+}
 
 function scrollFunction() {
 	if ($("body").scrollTop > 20 || document.documentElement.scrollTop > 20) {
