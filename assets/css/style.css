@@ -3,6 +3,11 @@
 	color: white;
 }
 
+footer {
+	border-top: 1px #0dbcd3 solid;
+	padding: 2px;
+}
+
 .navbar {
 	background-color: #212121;
 }
@@ -18,9 +23,8 @@
 	background-image: linear-gradient(to bottom, #212121, rgba(255, 255, 255, 0));
 }
 
-.mdl-card__title,
-.mdl-card--expand {
-	text-align: center !important;
+.mdl-grid.center-items {
+	justify-content: center;
 }
 
 .fa-arrow-down {
@@ -171,9 +175,9 @@ hr.new4 {
 	background-size: 550px 340px;
 }
 
-.bounce {
-	animation: bounce 3s infinite;
-	animation-timing-function: ease;
+#lolCard {
+	background: url(../images/league.png) top left 10% no-repeat black;
+	background-size: 550px 340px;
 }
 
 .btn {
@@ -195,19 +199,9 @@ hr.new4 {
 	border: 1px #0dbcd3 solid;
 }
 
-@keyframes bounce {
-	0%,
-	20%,
-	50%,
-	80%,
-	100% {
-		transform: translateY(0);
-	}
-	40% {
-		transform: translateY(-10px);
-	}
-	60% {
-		transform: translateY(-10px);
+@media only screen and (max-width: 768px) {
+	.mdl-card {
+		font-size: 5vw !important;
 	}
 }
 
