@@ -1,37 +1,82 @@
 #header {
-	padding: 150px 0px 40px 0px;
+	padding: 150px 0px 130px 0px;
 	color: white;
 }
 
+.navbar {
+	background-color: #212121;
+}
+
+#navbarDropdown {
+	color: white;
+	border: none;
+	outline: none;
+}
+
+#gamesNavbar {
+	padding: 50px 0px 50px 0px;
+	background-image: linear-gradient(to bottom, #212121, rgba(255, 255, 255, 0));
+}
+
+.mdl-card__title,
+.mdl-card--expand {
+	text-align: center !important;
+}
+
+.fa-arrow-down {
+	padding: 0px 10px 10px 10px;
+}
+
+.fa-arrow-left {
+	-moz-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.rotate {
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.display-1 {
+	font-size: 10vw;
+}
+
+.jumbotron {
+	height: auto;
+	margin-bottom: 0px !important;
+	background-image: url("../images/intro.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;
+	color: white;
+}
+
+#jumbotronSize {
+	height: auto;
+}
+
 #introLogo {
-    padding-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+#gameList {
+	margin-bottom: 0px;
 }
 
 .section {
 	height: auto;
 	padding: 75px 0px 75px 0px;
-	background-color: blanchedalmond;
-	border-top: #314048 solid 2px;
+	background-color: #212121;
 	z-index: 2;
-	color: black !important;
-}
-
-.Addit {
-	background-color: #f20d0d !important;
-	border-radius: 30px;
-	text-align: center;
-	padding: 10px;
-	width: 120px;
-	margin: 10px;
 }
 
 .centerBlock {
 	display: table;
 	margin: auto;
-}
-
-.xystonRed {
-	color: #f20d0d;
 }
 
 .bodyPosition {
@@ -40,25 +85,26 @@
 
 #introVid {
 	position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 	z-index: -4;
-	filter:blur(3px);
+	filter: blur(3px);
 }
-
 
 body {
 	font-weight: 700;
 	/*background: url(../images/intro.jpg) no-repeat center;*/
 	background-size: auto 1700px;
+	background-color: #212121;
 }
 
 h1 {
-	font-family: 'Titillium Web', sans-serif !important;
+	font-family: "Titillium Web", sans-serif !important;
 	font-weight: 700;
 	text-align: center;
+	color: white;
 }
 
 p {
@@ -71,6 +117,12 @@ p {
 	font-size: 25px;
 }
 
+hr.new4 {
+	border-top: 1px solid #0dbcd3;
+	width: 90%;
+	margin: 0 auto;
+}
+
 #myBtn {
 	display: none;
 	position: fixed;
@@ -80,26 +132,26 @@ p {
 	font-size: 18px;
 	border: none;
 	outline: none;
-	background-color: #f20d0d;
+	background-color: #0dbcd3;
 	color: white;
 	cursor: pointer;
-	padding: 10px;
-	border-radius: 6px;
+	padding: 8px;
 	float: right;
+	border-radius: 6px;
 }
 
 #myBtn:hover {
 	background-color: white;
-	color: #f20d0d;
+	color: #0dbcd3;
 }
 
 .demo-card-square.mdl-card {
-	width: 320px;
+	width: auto;
 	height: 320px;
 	border: 2px;
 	border-style: solid;
 	border-radius: 5px;
-	border-color: #f20d0d;
+	border-color: #0dbcd3;
 	margin: 0 10px 0 10px;
 }
 .demo-card-square > .mdl-card__title {
@@ -111,14 +163,55 @@ p {
 }
 
 #owCard {
-	background: url(../images/csgo.jpg) top left 10% no-repeat black;
+	background: url(../images/ow.png) top left 10% no-repeat black;
 	background-size: 550px 340px;
 }
 
 #csgoCard {
-	background: url(../images/csgo.jpg) top left 10% no-repeat black;
+	background: url(../images/csgo.png) top left 10% no-repeat black;
 	background-size: 550px 340px;
 }
+
+.bounce {
+	animation: bounce 3s infinite;
+	animation-timing-function: ease;
+}
+
+.btn {
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 13px 17px;
+	color: #0dbcd3;
+	background-color: #212121;
+	border: 1px #0dbcd3 solid;
+	padding-right: 60px;
+	padding-left: 60px;
+	border-radius: 0 !important;
+}
+
+.btn:hover {
+	color: white;
+	background-color: #0dbcd3;
+	border: 1px #0dbcd3 solid;
+}
+
+@keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-10px);
+	}
+	60% {
+		transform: translateY(-10px);
+	}
+}
+
 @media only screen and (max-width: 771px) {
 	body {
 		font-size: 10%;
