@@ -18,14 +18,12 @@ function getPlayer() {
 
 function ajax() {
 	var queryURL =
-		"https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" +
-		player +
-		"?api_key=RGAPI-b6d347df-a826-41c6-9f09-00747a104df9";
+		"https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=7D56B7CA02EB88A0A266FB4E5F61385B&vanityurl=" +
+		player;
 	$.ajax({
 		url: queryURL,
 		method: "GET"
 	}).then(function(response) {
 		console.log(response);
 	});
-	console.log(queryURL);
 }

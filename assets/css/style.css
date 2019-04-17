@@ -179,8 +179,8 @@ hr.new4 {
 	background-size: 550px 340px;
 }
 
-#lolCard {
-	background: url(../images/league.png) top left 10% no-repeat black;
+#dotaCard {
+	background: url(../images/dota2.png) top left 10% no-repeat black;
 	background-size: 550px 340px;
 }
 
@@ -202,6 +202,11 @@ hr.new4 {
 	color: white;
 	background-color: #0dbcd3;
 	border: 1px #0dbcd3 solid;
+}
+
+::placeholder {
+	color: white;
+	font-size: 15px;
 }
 
 @media only screen and (max-width: 1200px) {
