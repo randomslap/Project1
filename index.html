@@ -35,6 +35,10 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
 		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Quicksand"
+			rel="stylesheet"
+		/>
 	</head>
 
 	<body>
@@ -57,7 +61,7 @@
 				</button>
 				<div class="navbar-collapse collapse" id="collapsingNavbarLg">
 					<div class="container" id="gamesNavbar">
-						<div class="row">
+						<div class="row" id="cards">
 							<div
 								class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center"
 							>
@@ -72,13 +76,15 @@
 										<h1>CS:GO</h1>
 									</div>
 									<div class="mdl-card__actions mdl-card--border">
-										<button
-											style="margin-top: 20px; margin-bottom: 20px;"
-											type="button"
-											class="btn btn-primary btn-lg"
-										>
-											EXPLORE
-										</button>
+										<a href="csgo.html">
+											<button
+												style="margin-top: 20px; margin-bottom: 20px;"
+												type="button"
+												class="btn btn-primary btn-lg"
+											>
+												EXPLORE
+											</button>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -96,13 +102,15 @@
 										<h1>OVERWATCH</h1>
 									</div>
 									<div class="mdl-card__actions mdl-card--border">
-										<button
-											style="margin-top: 20px; margin-bottom: 20px;"
-											type="button"
-											class="btn btn-primary btn-lg"
-										>
-											EXPLORE
-										</button>
+										<a href="ow.html">
+											<button
+												style="margin-top: 20px; margin-bottom: 20px;"
+												type="button"
+												class="btn btn-primary btn-lg"
+											>
+												EXPLORE
+											</button>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -120,15 +128,56 @@
 										<h1 style="font-size: 30px;">LEAGUE OF LEGENDS</h1>
 									</div>
 									<div class="mdl-card__actions mdl-card--border">
-										<button
-											style="margin-top: 20px; margin-bottom: 20px;"
-											type="button"
-											class="btn btn-primary btn-lg"
-										>
-											EXPLORE
-										</button>
+										<a href="lol.html">
+											<button
+												style="margin-top: 20px; margin-bottom: 20px;"
+												type="button"
+												class="btn btn-primary btn-lg"
+											>
+												EXPLORE
+											</button>
+										</a>
 									</div>
 								</div>
+							</div>
+						</div>
+						<div class="row" id="buttons">
+							<div class="col-xs-12 col-sm-12 text-center">
+								<ul>
+									<li>
+										<a href="csgo.html">
+											<button
+												style="margin-top: 20px; margin-bottom: 20px;"
+												type="button"
+												class="btn btn-primary btn-lg"
+											>
+												CS:GO
+											</button>
+										</a>
+									</li>
+									<li>
+										<a href="ow.html">
+											<button
+												style="margin-top: 20px; margin-bottom: 20px;"
+												type="button"
+												class="btn btn-primary btn-lg"
+											>
+												OVERWATCH
+											</button>
+										</a>
+									</li>
+									<li>
+										<a href="lol.html">
+											<button
+												style="margin-top: 20px; margin-bottom: 20px;"
+												type="button"
+												class="btn btn-primary btn-lg"
+											>
+												LEAGUE OF LEGENDS
+											</button>
+										</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -138,7 +187,8 @@
 				<div class="jumbotron jumbotron-fluid row">
 					<div class="col-xl-12 col-lg-12 col-md-12 col-xs-1">
 						<h1 class="display-1 text-center animated fadeInDown slow">
-							WELCOME <strong style="color: #0dbcd3;">TO </strong
+							WELCOME
+							<strong style="color: #0dbcd3;">TO </strong
 							><span class="animated fadeInDown slower delay-1s">WINNABLE</span>
 						</h1>
 					</div>
@@ -164,20 +214,22 @@
 						</div>
 						<div class="row">
 							<div class="col-12 text-center">
-								<a href="..."
-									><img src="assets/images/csgo.png" class="img-fluid rounded"
-								/></a>
+								<a href="csgo.html">
+									<img src="assets/images/csgo.png" class="img-fluid rounded" />
+								</a>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-12 text-center">
-								<button
-									style="margin-top: 20px; margin-bottom: 20px;"
-									type="button"
-									class="btn btn-primary btn-lg"
-								>
-									EXPLORE
-								</button>
+								<a href="csgo.html">
+									<button
+										style="margin-top: 20px; margin-bottom: 20px;"
+										type="button"
+										class="btn btn-primary btn-lg"
+									>
+										EXPLORE
+									</button>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -189,20 +241,22 @@
 						</div>
 						<div class="row">
 							<div class="col-12 text-center">
-								<a href="..."
+								<a href="ow.html"
 									><img src="assets/images/ow.png" class="img-fluid rounded"
 								/></a>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-12 text-center">
-								<button
-									style="margin-top: 20px; margin-bottom: 20px;"
-									type="button"
-									class="btn btn-primary btn-lg"
-								>
-									EXPLORE
-								</button>
+								<a href="ow.html">
+									<button
+										style="margin-top: 20px; margin-bottom: 20px;"
+										type="button"
+										class="btn btn-primary btn-lg"
+									>
+										EXPLORE
+									</button>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -214,20 +268,22 @@
 						</div>
 						<div class="row">
 							<div class="col-12 text-center">
-								<a href="..."
+								<a href="lol.html"
 									><img src="assets/images/league.png" class="img-fluid rounded"
 								/></a>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-12 text-center">
-								<button
-									style="margin-top: 20px; margin-bottom: 20px;"
-									type="button"
-									class="btn btn-primary btn-lg"
-								>
-									EXPLORE
-								</button>
+								<a href="lol.html">
+									<button
+										style="margin-top: 20px; margin-bottom: 20px;"
+										type="button"
+										class="btn btn-primary btn-lg"
+									>
+										EXPLORE
+									</button>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -248,7 +304,7 @@
 						</span>
 						<p
 							class="text-center"
-							style="font-size: 25px; line-height: 30px; margin-top: 15px;"
+							style="font-family: 'Quicksand', sans-serif; font-size: 25px; line-height: 30px; margin-top: 15px;"
 						>
 							Match data, such as map information, scheduled times, teams and
 							players.
@@ -260,7 +316,7 @@
 						</span>
 						<p
 							class="text-center"
-							style="font-size: 25px; line-height: 30px; margin-top: 15px;"
+							style="font-family: 'Quicksand', sans-serif; font-size: 25px; line-height: 30px; margin-top: 15px;"
 						>
 							Current, upcoming, and passed tournement information for
 							Overwatch, League of Legends, and Counter Strike: Global
@@ -273,7 +329,7 @@
 						</span>
 						<p
 							class="text-center"
-							style="font-size: 25px; line-height: 30px; margin-top: 15px;"
+							style="font-family: 'Quicksand', sans-serif; font-size: 25px; line-height: 30px; margin-top: 15px;"
 						>
 							Using Winnable.gg allows you to browse any scheduled matches with
 							our user freindly UI.
@@ -291,11 +347,29 @@
 
 		<footer class="page-footer font-small blue">
 			<div class="footer-copyright py-3">
-				<span style="font-size: 50px; margin-left: 15px;">
-					<a href="https://github.com/randomslap/Project1" target="_blank">
-						<i class="fab fa-github"></i>
+				<p style="margin-top: -10px;" class="text-center">
+					Kent Okazaki -<a href="https://github.com/randomslap" target="_blank"
+						><span style="font-size: 15px; color: white;">
+							<i class="fab fa-github"></i>
+						</span>
 					</a>
-				</span>
+				</p>
+				<p style="margin-top: -20px;" class="text-center">
+					Davis Cabrera -<a href="https://github.com/dcabrera97" target="_blank"
+						><span style="font-size: 15px; color: white;">
+							<i class="fab fa-github"></i>
+						</span>
+					</a>
+				</p>
+				<p style="margin-top: -20px; margin-bottom: -10px;" class="text-center">
+					Matthew Madrigal -<a
+						href="https://github.com/Madrigalbit"
+						target="_blank"
+						><span style="font-size: 15px; color: white;">
+							<i class="fab fa-github"></i>
+						</span>
+					</a>
+				</p>
 			</div>
 		</footer>
 	</body>

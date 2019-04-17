@@ -5,7 +5,6 @@
 
 footer {
 	border-top: 1px #0dbcd3 solid;
-	padding: 2px;
 }
 
 .navbar {
@@ -51,12 +50,17 @@ footer {
 .jumbotron {
 	height: auto;
 	margin-bottom: 0px !important;
-	background-image: url("../images/intro.jpg");
+	background: rgb(13, 188, 211);
+	background: radial-gradient(
+		circle,
+		rgba(13, 188, 211, 1) 0%,
+		rgba(0, 0, 0, 1) 100%,
+		rgba(13, 188, 211, 1) 100%
+	);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center bottom;
-	color: white;
 }
 
 #jumbotronSize {
@@ -191,12 +195,25 @@ hr.new4 {
 	padding-right: 60px;
 	padding-left: 60px;
 	border-radius: 0 !important;
+	box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.1);
 }
 
 .btn:hover {
 	color: white;
 	background-color: #0dbcd3;
 	border: 1px #0dbcd3 solid;
+}
+
+@media only screen and (max-width: 1200px) {
+	#cards {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	#buttons {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 768px) {
