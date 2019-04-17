@@ -40,222 +40,434 @@
 			rel="stylesheet"
 		/>
 	</head>
-</html>
-<div>
-	<nav class="navbar text-black sticky-top">
-		<a class="navbar-brand" href="#page-top"
-			><img src="assets/images/winnable.png" width="250" height="auto"
-		/></a>
-		<button
-			class="navbar-toggler"
-			href=""
-			id="navbarDropdown"
-			role="button"
-			data-toggle="collapse"
-			data-target="#collapsingNavbarLg"
-			aria-expanded="false"
-		>
-			Games
-			<i class="fas fa-arrow-left" style="color: #0dbcd3;"></i>
-		</button>
-		<div class="navbar-collapse collapse" id="collapsingNavbarLg">
-			<div class="container" id="gamesNavbar">
-				<div class="row" id="cards">
-					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-						<div
-							class="demo-card-square mdl-card mdl-shadow--2dp well"
-							id="csgoCard"
-						>
+	<body>
+		<div>
+			<nav class="navbar text-black sticky-top">
+				<a class="navbar-brand" href="index.html"
+					><img src="assets/images/winnable.png" width="250" height="auto"
+				/></a>
+				<button
+					class="navbar-toggler"
+					href=""
+					id="navbarDropdown"
+					role="button"
+					data-toggle="collapse"
+					data-target="#collapsingNavbarLg"
+					aria-expanded="false"
+				>
+					Games
+					<i class="fas fa-arrow-left" style="color: #0dbcd3;"></i>
+				</button>
+				<div class="navbar-collapse collapse" id="collapsingNavbarLg">
+					<div class="container" id="gamesNavbar">
+						<div class="row" id="cards">
 							<div
-								class="mdl-card__title mdl-card--expand"
-								style="justify-content: center;"
+								class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center"
 							>
-								<h1>CS:GO</h1>
-							</div>
-							<div class="mdl-card__actions mdl-card--border">
-								<button
-									style="margin-top: 20px; margin-bottom: 20px;"
-									type="button"
-									class="btn btn-primary btn-lg"
+								<div
+									class="demo-card-square mdl-card mdl-shadow--2dp well"
+									id="csgoCard"
 								>
-									EXPLORE
-								</button>
+									<div
+										class="mdl-card__title mdl-card--expand"
+										style="justify-content: center;"
+									>
+										<h1>CS:GO</h1>
+									</div>
+									<a href="csgo.html">
+										<button
+											style="margin-top: 20px; margin-bottom: 20px;"
+											type="button"
+											class="btn btn-primary btn-lg"
+										>
+											EXPLORE
+										</button>
+									</a>
+								</div>
+							</div>
+							<div
+								class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center"
+							>
+								<div
+									class="demo-card-square mdl-card mdl-shadow--2dp well"
+									id="owCard"
+								>
+									<div
+										class="mdl-card__title mdl-card--expand"
+										style="justify-content: center;"
+									>
+										<h2>OVERWATCH</h2>
+									</div>
+									<div class="mdl-card__actions mdl-card--border">
+										<a href="ow.html">
+											<button
+												style="margin-top: 20px; margin-bottom: 20px;"
+												type="button"
+												class="btn btn-primary btn-lg"
+											>
+												OVERWATCH
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div
+								class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center"
+							>
+								<div
+									class="demo-card-square mdl-card mdl-shadow--2dp well"
+									id="dotaCard"
+								>
+									<div
+										class="mdl-card__title mdl-card--expand"
+										style="justify-content: center;"
+									>
+										<h1>DOTA II</h1>
+									</div>
+									<div class="mdl-card__actions mdl-card--border">
+										<a href="dota.html">
+											<button
+												style="margin-top: 20px; margin-bottom: 20px;"
+												type="button"
+												class="btn btn-primary btn-lg"
+											>
+												EXPLORE
+											</button>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-						<div
-							class="demo-card-square mdl-card mdl-shadow--2dp well"
-							id="owCard"
-						>
-							<div
-								class="mdl-card__title mdl-card--expand"
-								style="justify-content: center;"
-							>
-								<h1>OVERWATCH</h1>
-							</div>
-							<div class="mdl-card__actions mdl-card--border">
-								<button
-									style="margin-top: 20px; margin-bottom: 20px;"
-									type="button"
-									class="btn btn-primary btn-lg"
-								>
-									EXPLORE
-								</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
-						<div
-							class="demo-card-square mdl-card mdl-shadow--2dp well"
-							id="lolCard"
-						>
-							<div
-								class="mdl-card__title mdl-card--expand"
-								style="justify-content: center;"
-							>
-								<h1 style="font-size: 30px;">DOTA II</h1>
-							</div>
-							<div class="mdl-card__actions mdl-card--border">
-								<button
-									style="margin-top: 20px; margin-bottom: 20px;"
-									type="button"
-									class="btn btn-primary btn-lg"
-								>
-									EXPLORE
-								</button>
+						<div class="row text-center" id="buttons">
+							<div class="col-12">
+								<ul>
+									<li>
+										<button
+											style="margin-top: 20px; margin-bottom: 20px;"
+											type="button"
+											class="btn btn-primary btn-lg"
+										>
+											CS:GO
+										</button>
+									</li>
+									<li>
+										<button
+											style="margin-top: 20px; margin-bottom: 20px;"
+											type="button"
+											class="btn btn-primary btn-lg"
+										>
+											OVERWATCH
+										</button>
+									</li>
+									<li>
+										<button
+											style="margin-top: 20px; margin-bottom: 20px;"
+											type="button"
+											class="btn btn-primary btn-lg"
+										>
+											DOTA II
+										</button>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row text-center" id="buttons">
-					<div class="col-12">
-						<ul>
-							<li>
-								<button
-									style="margin-top: 20px; margin-bottom: 20px;"
-									type="button"
-									class="btn btn-primary btn-lg"
-								>
-									CS:GO
-								</button>
-							</li>
-							<li>
-								<button
-									style="margin-top: 20px; margin-bottom: 20px;"
-									type="button"
-									class="btn btn-primary btn-lg"
-								>
-									OVERWATCH
-								</button>
-							</li>
-							<li>
-								<button
-									style="margin-top: 20px; margin-bottom: 20px;"
-									type="button"
-									class="btn btn-primary btn-lg"
-								>
-									DOTA II
-								</button>
-							</li>
-						</ul>
-					</div>
+			</nav>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row justify-content-center text-center">
+				<div class="col-12">
+					<h2
+						style="font-family: Quicksand, sans-serif !important;"
+						class="text-white"
+					>
+						SEARCH FOR A PLAYER
+					</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center text-center">
+				<div>
+					<form>
+						<label class="sr-only" for="inlineFormInputGroup"></label>
+						<input
+							type="text"
+							style="width: 16rem; border: 1px solid #0dbcd3;"
+							class="form-control mb-2"
+							id="playernameinput"
+							placeholder="Search Player Name..."
+						/>
+						<label class="sr-only" for="inlineFormInputGroup"></label>
+						<div class="input-group mb-2" style="width: 16rem">
+							<div class="input-group-prepend">
+								<div class="input-group-text" style="border: 1px solid #0dbcd3">
+									#
+								</div>
+							</div>
+							<input
+								type="text"
+								style="border: 1px solid #0dbcd3"
+								class="form-control"
+								id="battletaginput"
+								placeholder="Battletag"
+							/>
+						</div>
+						<button type="button" id="player-add" class="btn btn-primary mb-2">
+							Submit
+						</button>
+					</form>
 				</div>
 			</div>
 		</div>
-	</nav>
-</div>
-
-<div class="d-flex justify-content-center align-items-center container ">
-	<div class="row text-center">
-		<div class="col">
-			<form>
-				<label class="sr-only" for="inlineFormInputGroup">Name</label>
-				<input type="text" style="width: 16rem; border: 1px solid #0dbcd3" class="form-control mb-2 justify-content-center" id="playernameinput" placeholder="Search Player Name...">
-				<label class="sr-only" for="inlineFormInputGroup">Username</label>
-					<div class="input-group mb-2" style="width: 9rem; margin-right: 0;">
-						<div class="input-group-prepend">
-							<div class="input-group-text" style="border: 1px solid #0dbcd3">
-								#
+		<div class="container-fluid">
+			<div
+				class="row justify-content-center"
+				style="padding: 40px;
+"
+			>
+				<div class="col-12">
+					<hr class="new4" />
+				</div>
+			</div>
+			<div
+				class="row justify-content-center"
+				style="margin-left: 0px; margin-right: 0px;"
+			>
+				<div class="col-4">
+					<div
+						class="row"
+						style="background-color: #E8E8E8; padding: 50px; border: 2px #0dbcd3 solid; border-radius: 8px;"
+					>
+						<div>
+							<h5
+								class="col-12 card-title text-uppercase text-center"
+								style="font-family: 'Quicksand', sans-serif !important;"
+							>
+								Quick Play Stats
+							</h5>
+							<hr />
+							<div class="row" style="padding: 10px;">
+								<div class="col-3">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										TOTAL MEDALS
+									</p>
+									<p style="color: black; font-size: 20px;" id="qckMedal">
+										-
+									</p>
+								</div>
+								<div class="col-3">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										BRONZE MEDALS
+									</p>
+									<p style="color: black; font-size: 20px;" id="qckBronze">
+										-
+									</p>
+								</div>
+								<div class="col-3">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										SILVER MEDALS
+									</p>
+									<p style="color: black; font-size: 20px;" id="qckSilver">
+										-
+									</p>
+								</div>
+								<div class="col-3">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										GOLD MEDALS
+									</p>
+									<p style="color: black; font-size: 20px;" id="qckGold">-</p>
+								</div>
+							</div>
+							<hr />
+							<div class="row" style="padding: 10px;">
+								<div class="col-6">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										GAMES PLAYED
+									</p>
+									<p style="color: black; font-size: 20px;" id="qckPlayed">
+										-
+									</p>
+								</div>
+								<div class="col-6">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										GAMES WON
+									</p>
+									<p style="color: black; font-size: 20px;" id="qckWon">-</p>
+								</div>
 							</div>
 						</div>
-						<input type="text" style="border: 1px solid #0dbcd3" class="form-control" id="battletaginput" placeholder="Battletag">
-					</div>						 
-					<button type="button" id="player-add" class="btn btn-primary mb-2">
-						Submit
-					</button>
-			</form>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div
+						style="background-color: #E8E8E8; padding: 40px;  border: 2px #0dbcd3 solid; border-radius: 8px;"
+					>
+						<div class="text-center">
+							<img class="text-center" id="playerImg" style="width: 100px;
+							height: 100px;"" />
+							<hr />
+							<h5
+								style="font-family: 'Quicksand', sans-serif !important;"
+								class="card-title text-center"
+								id="playerUsername"
+							>
+								Name:
+							</h5>
+							<h6
+								style="font-family: 'Quicksand', sans-serif !important;"
+								class="card-subtitle mb-2 text-center"
+								id="gamesWon"
+							>
+								Total Wins:
+							</h6>
+							<h6
+								style="font-family: 'Quicksand', sans-serif !important;"
+								class="card-subtitle mb-2 text-center"
+								id="endorsementLevel"
+							>
+								Endorsement:
+							</h6>
+							<h6
+								style="font-family: 'Quicksand', sans-serif !important;"
+								class="card-subtitle mb-2 text-center"
+								id="playerPrestige"
+							>
+								Prestige:
+							</h6>
+							<h6
+								style="font-family: 'Quicksand', sans-serif !important;"
+								class="card-subtitle mb-2 text-center"
+								id="playerLevel"
+							>
+								Level:
+							</h6>
+							<hr />
+							<img
+								class="text-center"
+								style="width: 60px; height: 60px;"
+								id="rankImg"
+							/>
+							<h5
+								style="font-family: 'Quicksand', sans-serif !important;"
+								class="card-title text-center"
+								id="playerRank"
+							>
+								Rank:
+							</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div
+						class="row"
+						style="background-color: #E8E8E8; padding: 50px;  border: 2px #0dbcd3 solid; border-radius: 8px;"
+					>
+						<div>
+							<h5
+								class="card-title text-uppercase text-center"
+								style="font-family: 'Quicksand', sans-serif !important;"
+							>
+								competitive Stats
+							</h5>
+							<hr />
+							<div class="row" style="padding: 10px;">
+								<div class="col-3">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										TOTAL MEDALS
+									</p>
+									<p style="color: black; font-size: 20px;" id="compMedal">
+										-
+									</p>
+								</div>
+								<div class="col-3">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										BRONZE MEDALS
+									</p>
+									<p style="color: black; font-size: 20px;" id="compBronze">
+										-
+									</p>
+								</div>
+								<div class="col-3">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										SILVER MEDALS
+									</p>
+									<p style="color: black; font-size: 20px;" id="compSilver">
+										-
+									</p>
+								</div>
+								<div class="col-3">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										GOLD MEDALS
+									</p>
+									<p style="color: black; font-size: 20px;" id="compGold">
+										-
+									</p>
+								</div>
+							</div>
+							<hr />
+							<div class="row" style="padding: 10px;">
+								<div class="col-6">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										GAMES PLAYED
+									</p>
+									<p style="color: black; font-size: 20px;" id="compPlayed">
+										-
+									</p>
+								</div>
+								<div class="col-6">
+									<p style="color: black; font-size: 15px; line-height: 18px;">
+										GAMES WON
+									</p>
+									<p style="color: black; font-size: 20px;" id="compWon">-</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div
+				class="row justify-content-center"
+				style="padding: 40px;
+"
+			></div>
 		</div>
-	</div>	
-</div>
-<section class="sec py-5">
-        <div class="container">
-          <div class="row">
-            <!-- Free Tier -->
-            <div class="col-lg-4">
-              <div class="card mb-5 mb-lg-0">
-                <div class="card-body">
-                  <h5 class="card-title text-muted text-uppercase text-center">Quick Play Stats</h5>
-                  <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
-                  <hr>
-                  <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain</li>
-                    <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
-                  </ul>
-                  
-                </div>
-              </div>
-            </div>
-            <!-- Plus Tier -->
-            <div class="col-lg-4">
-            <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                  </div>
-                </div>
-            <!-- Pro Tier -->
-            <div class="col-lg-4">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title text-muted text-uppercase text-center">Comptetive Stats</h5>
-                  <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
-                  <hr>
-                  <ul class="fa-ul">
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free Subdomains</li>
-                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
-                  </ul>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-	
-</body>
-<!--SCRIPTS-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-<script src="assets/js/app.js"></script>
-<script src="assets/js/ow.js"></script>
+		<footer class="page-footer font-small blue">
+			<div class="footer-copyright py-3">
+				<p style="margin-top: -10px;" class="text-center">
+					Kent Okazaki -<a href="https://github.com/randomslap" target="_blank"
+						><span style="font-size: 15px; color: white;">
+							<i class="fab fa-github"></i>
+						</span>
+					</a>
+				</p>
+				<p style="margin-top: -20px;" class="text-center">
+					Davis Cabrera -<a href="https://github.com/dcabrera97" target="_blank"
+						><span style="font-size: 15px; color: white;">
+							<i class="fab fa-github"></i>
+						</span>
+					</a>
+				</p>
+				<p style="margin-top: -20px; margin-bottom: -10px;" class="text-center">
+					Matthew Madrigal -<a
+						href="https://github.com/Madrigalbit"
+						target="_blank"
+						><span style="font-size: 15px; color: white;">
+							<i class="fab fa-github"></i>
+						</span>
+					</a>
+				</p>
+			</div>
+		</footer>
+	</body>
+	<!--SCRIPTS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/ow.js"></script>
 </html>

@@ -18,19 +18,11 @@ function getPlayer() {
 
 function ajax() {
 	var queryURL =
-		"https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=7D56B7CA02EB88A0A266FB4E5F61385B&vanityurl=" +
+		"https://crossorigin.me/http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=7D56B7CA02EB88A0A266FB4E5F61385B&vanityurl=" +
 		player;
-
 	$.ajax({
 		url: queryURL,
-		method: "GET",
-		headers: {
-			"Access-Control-Allow-Origin": "*",
-			"Access-Control-Allow-Methods": "GET",
-			"Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"
-		},
-		dataType: "jsonp",
-		crossDomain: true
+		method: "GET"
 	}).then(function(response) {
 		console.log(response);
 	});

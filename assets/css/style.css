@@ -50,13 +50,7 @@ footer {
 .jumbotron {
 	height: auto;
 	margin-bottom: 0px !important;
-	background: rgb(13, 188, 211);
-	background: radial-gradient(
-		circle,
-		rgba(13, 188, 211, 1) 0%,
-		rgba(0, 0, 0, 1) 100%,
-		rgba(13, 188, 211, 1) 100%
-	);
+	background: url("../images/intro.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -105,19 +99,21 @@ body {
 	font-weight: 700;
 	background-size: auto 1700px;
 	background-color: #212121;
+	font-family: "Quicksand", sans-serif !important;
 }
 
 h1 {
-	font-family: "Titillium Web", sans-serif !important;
 	font-weight: 700;
 	text-align: center;
 	color: white;
+	font-family: "Quicksand", sans-serif !important;
 }
 
 p {
 	font-weight: 700;
 	color: #fbfbfb;
 	text-align: center;
+	font-family: "Quicksand", sans-serif !important;
 }
 
 #infoFont {
@@ -251,15 +247,13 @@ hr.new4 {
 	}
 }
 
-/* Hover Effects on Card */
-
-@media (min-width: 992px) {
-	.pricing .card:hover {
-		margin-top: -0.25rem;
-		margin-bottom: 0.25rem;
-		box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-	}
-	.pricing .card:hover .btn {
-		opacity: 1;
-	}
+.item img {
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.item:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
