@@ -24,12 +24,12 @@ function ajax() {
 	$.ajax({
 		url: queryURL,
 		method: "GET",
-		withCredentials: true,
 		headers: {
 			"Access-Control-Allow-Origin": "*",
-			"Access-Control-Allow-Methods": "GET"
+			"Access-Control-Allow-Methods": "GET",
+			"Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"
 		},
-		dataType: "json",
+		dataType: "jsonp",
 		crossDomain: true
 	}).then(function(response) {
 		console.log(response);
