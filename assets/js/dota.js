@@ -17,9 +17,9 @@ function getPlayer() {
 }
 
 function ajax() {
-	var queryURL = "https://steam-api-project1.herokuapp.com";
-	//player;
-	//"http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=7D56B7CA02EB88A0A266FB4E5F61385B&vanityurl=" +
+	var queryURL =
+		"http://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001/?key=7D56B7CA02EB88A0A266FB4E5F61385B&vanityurl=" +
+		player;
 
 	$.ajax({
 		url: queryURL,
